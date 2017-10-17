@@ -1,4 +1,4 @@
-package ecommerce.project.bookstore.security;
+package ecommerce.project.bookstore.entities.security;
 
 import org.springframework.security.core.GrantedAuthority;
 

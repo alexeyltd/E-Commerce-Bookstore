@@ -1,4 +1,4 @@
-package ecommerce.project.bookstore.security.config.service;
+package ecommerce.project.bookstore.services.impl;
 
 import ecommerce.project.bookstore.entities.User;
 import ecommerce.project.bookstore.repositories.UserRepository;

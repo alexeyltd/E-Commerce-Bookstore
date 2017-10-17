@@ -1,6 +1,7 @@
-package ecommerce.project.bookstore.security;
+package ecommerce.project.bookstore.entities.security;
 
 import ecommerce.project.bookstore.entities.User;
+import ecommerce.project.bookstore.entities.security.Role;
 
 import javax.persistence.*;
 
@@ -19,6 +20,9 @@ public class UserRole {
 	@ManyToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "role_id")
 	private Role role;
+
+	public UserRole() {
+	}
 
 	public UserRole(User user, Role role) {
 		this.user = user;

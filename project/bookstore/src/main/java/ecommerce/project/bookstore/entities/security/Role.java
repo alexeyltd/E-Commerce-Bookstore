@@ -1,4 +1,4 @@
-package ecommerce.project.bookstore.security;
+package ecommerce.project.bookstore.entities.security;
 
 import javax.persistence.*;
 import java.util.HashSet;

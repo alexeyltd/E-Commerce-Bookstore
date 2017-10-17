@@ -1,8 +1,8 @@
 package ecommerce.project.bookstore.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import ecommerce.project.bookstore.security.Authority;
-import ecommerce.project.bookstore.security.UserRole;
+import ecommerce.project.bookstore.entities.security.Authority;
+import ecommerce.project.bookstore.entities.security.UserRole;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
